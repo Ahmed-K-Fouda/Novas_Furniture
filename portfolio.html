@@ -1,0 +1,282 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Portfoli</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- webfonts -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- bootStrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="sticky-top bg-light">
+      <div class="container-lg">
+        <div class="row-head">
+          <div class="col-left">
+            <div class="logo">
+              <img src="./imgaes/logo/logo-black.png" />
+            </div>
+          </div>
+          <div class="col-center">
+            <div class="links">
+              <ul id="list-one">
+                <li><a href="index.html">Home</a></li>
+                <li class="show-split">
+                  <a href="shop.html">shop</a>
+                  <div class="split">
+                    <ul class="split-right">
+                      <li><a href="">shop1</a></li>
+                      <li><a href="">shop2</a></li>
+                      <li><a href="">shop3</a></li>
+                      
+                    </ul>
+                    <ul class="split-right">
+                      <li><a href="">shop4</a></li>
+                      <li><a href="">shop5</a></li>
+                      <li><a href="">shop6</a></li>
+                      
+                    </ul>
+                    <ul class="split-right">
+                      <li><a href="">shop7</a></li>
+                      <li><a href="">shop8</a></li>
+                      <li><a href="">shop9</a></li>
+                      
+                    </ul>
+                    
+                    
+                    <ul class="split-right">
+                      <li><img src="./imgaes/testimonials/img-4.jpg" class="w-25 img-fluid"></li>
+                    </ul>                    
+                  </div>
+                </li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="element.html">elements</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="icons-shop">
+              <i class="ri-user-line pe-2 fs-4 " id="login-button"></i>
+              <i class="ri-search-line text-dark fs-4" id="shop-glass"></i>
+              
+            </div>
+            <div class="search" id="search-bar">
+              <form class="search-form">
+                <i class="fa-solid fa-magnifying-glass search-icon" id="search-glases"></i>
+                <input type="search" placeholder="what you looking for ?" class="search-input">
+              </form>
+              <i class="ri-close-line search-close" id="search-close"></i>
+            </div>
+            <div class="login" id="login">
+              <form class="login-form">
+                <h2 class="login-title">Log In</h2>
+                <div class="login-group">
+                  <div>
+                    <lable for="email" class="login-label">email</lable>
+                    <input type="email" class="login-input" placeholder="write your e-mail" id="email">
+                  </div>
+                  <div>
+                    <lable for="password" class="login-label">password</lable>
+                    <input type="password" class="login-input" placeholder="Enter Your Pass" id="password">
+                  </div>
+                </div>
+                <div>
+                  <p class="login-signup d-flex justify-content-center mb-2">
+                    You dont have an Account ? <a href="#" class="ms-3">Sign-up</a> 
+                  </p>
+                  <a href="" class="login-forget text-decoration-none d-flex justify-content-center ms-2">You forget Your password</a>
+                  <button type="submit" class="login-button">Log In</button>
+                </div>
+              </form>
+              <i class="ri-close-line login-close" id="login-close"></i>
+            </div>   
+
+            <div class="icon-bars">
+              <i class="ri-menu-line" id="show"></i>
+              <i class="ri-close-line" id="hide"></i>
+            </div>
+          </div>          
+        </div>
+      </div>
+      
+    </header>
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center fs-1">Portfolio Standard!</h1>
+                <p class="text-center pt-3 text-black-50">Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur 
+                <br>adipisicing elit. Libero, suscipit! Nisi maxime culpa neque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="filter-buttons text-center">
+                    <button  class="active" data-name="all">Show All</button>
+                    <button  data-name="light">Lightning</button>
+                    <button  data-name="decora">Decoration</button>
+                    <button  data-name="furn">Furniture</button>
+                </div>
+            </div>
+        </div>
+        <div class="row-portfolio filter-cards">
+            <div class="colportfolio" data-name="decora">
+                <img src="./imgaes/gallery/hero-bg.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Form Armchair</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="light">
+                <img src="./imgaes/blogpage/blog-masonry-1.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Large Branch Vase</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="furn">
+                <img src="./imgaes/blogpage/blog-masonry-2.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Marblelous Tray</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="light">
+                <img src="./imgaes/blogpage/blog-masonry-3.jpg" class="img-fluid">
+                <div class="body">
+                    <p>LED Table Lamp</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="decora">
+                <img src="./imgaes/gallery/three-columns-grid-2.jpg" class="img-fluid">
+                <div class="body">
+                    
+                    <p>Via Fondazza</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="furn">
+                <img src="./imgaes/gallery/three-columns-grid-3.jpg" class="img-fluid">
+                <div class="body">
+                    
+                    <p>Unico Vase</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="light">
+                <img src="./imgaes/gallery/three-columns-grid-4.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Genuine Flower Pot</p>
+                    
+                </div>
+            </div>
+            <div class="colportfolio" data-name="decora">
+                <img src="./imgaes/gallery/three-columns-grid-5.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Lup Candleholder</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="furn">
+                <img src="./imgaes/gallery/three-columns-grid-6.jpg" class="img-fluid">
+                <div class="body">
+                    <p> Half-Moon Antique</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="light">
+                <img src="./imgaes/gallery/three-columns-grid-7.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Genuine Flower Pot</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="decora">
+                <img src="./imgaes/gallery/three-columns-grid-9.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Lup Candleholder</p>
+                </div>
+            </div>
+            <div class="colportfolio" data-name="furn">
+                <img src="./imgaes/gallery/three-columns-grid-10.jpg" class="img-fluid">
+                <div class="body">
+                    <p>Half-Moon Antique</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+  </div>
+
+  <footer>
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="left-side">
+                        <img src="./imgaes/logo/logo-black.png" class="img-fluid text-danger"  alt="Logo"/>
+                        <p>
+                         Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                         <i class="fa-brands fa-facebook" id="face"></i>
+                         <i class="fa-brands fa-instagram" id="instg"></i>
+                         <i class="fa-brands fa-twitter" id="twitt"></i>
+                         <i class="fa-brands fa-tumblr" id="tumb"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12  gy-5">
+                    <div class="center-side-left">
+                        <h4 class="text-capitalize">contact</h4>
+                        <i class="fa-solid fa-map-location-dot"></i><span> No 40 Baria Sreet 133/2</span>
+                        <i class="fa-solid fa-phone d-block"></i>
+                        <span class="d-block">(20)+102178***</span>
+                        <i class="fa-regular fa-envelope"></i>
+                        <span class="d-block">someone@example.com</span>
+                        <i class="fa-solid fa-earth-americas d-inline-block"></i>
+                        <span>www.novas.com</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 gy-5 text-sm-start">
+                    <div class="center-side-right">
+                        <h4>Profile</h4>
+                       
+                            <p><a href=""><i class="fa-solid fa-user foot"></i> My Account</p></a>
+                            <p><a href=""><i class="fa-solid fa-cart-shopping foot"></i>Checkout</a></p>
+                            <p><a href=""><i class="fa-solid fa-eye foot"></i>Tracking</a> </p>
+                            <p><a href=""><i class="fa-regular fa-circle-question foot"></i> Help & Suppport</a></p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 gy-5">
+                    <div class="right-side">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to our newsletter</p>
+                        <input type="email" placeholder="Your e-mail"><i class="fa-solid fa-paper-plane send" title="send"></i>
+                        <p>@ 2019 Novas. Get The Template</p>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </footer>
+
+   
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js.map"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+  </body>
+</html>
